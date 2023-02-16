@@ -291,9 +291,9 @@ func DefaultLANConfig() *Config {
 	return &Config{
 		Name:                    hostname,
 		BindAddr:                "0.0.0.0",
-		BindPort:                7946,
+		BindPort:                2146,
 		AdvertiseAddr:           "",
-		AdvertisePort:           7946,
+		AdvertisePort:           2146,
 		ProtocolVersion:         ProtocolVersion2Compatible,
 		TCPTimeout:              10 * time.Second,       // Timeout after 10 seconds
 		IndirectChecks:          3,                      // Use 3 nodes for the indirect ping
